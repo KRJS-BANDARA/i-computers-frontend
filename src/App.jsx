@@ -15,6 +15,7 @@ function App() {
 
   return (
     <GoogleOAuthProvider clientId={import.meta.env.clientId}>
+      
     <>
       {/* <ProductCard name="MacBook Air M5 Chip 13 inch (2026)" price="Rs525,000.00" imgUrl="https://d2bschjhk4kxui.cloudfront.net/assets/images/product/69ab016f84a621772814703.webp"/>
       <ProductCard name="MacBook Neo 13 inch (2026)" price="Rs325,000.00" imgUrl="https://d2bschjhk4kxui.cloudfront.net/assets/images/product/69aaf75f58e471772812127.webp"/>
