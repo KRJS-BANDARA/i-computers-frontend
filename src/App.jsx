@@ -14,7 +14,8 @@ import ForgetPassword from './pages/forgetPassword';
 function App() {
 
   return (
-    <GoogleOAuthProvider clientId={import.meta.env.clientId}>
+    <GoogleOAuthProvider clientId={import.meta.env.VITE_GOOGLE_CLIENT_ID}>
+       {/* <GoogleOAuthProvider clientId="19329537837-c8tqg4demeov3m56kvfjpufpvff9b2qh.apps.googleusercontent.com"> */}
       
     <>
       {/* <ProductCard name="MacBook Air M5 Chip 13 inch (2026)" price="Rs525,000.00" imgUrl="https://d2bschjhk4kxui.cloudfront.net/assets/images/product/69ab016f84a621772814703.webp"/>
